@@ -1,0 +1,53 @@
+<script>
+    "use strict";
+    let i=1,j,k=1,l,m=1,n,o,s;
+    n=parseInt(prompt("enter n="));
+    while(i<=n){
+        l=n-i;
+        while(l>=1){
+            document.write("&nbsp&nbsp");
+            l--;
+        }
+        j=1;
+        while(j<=i){
+            document.write("*");
+            j++;
+        }
+        k=i-1;
+        while(k>=1){
+            document.write("*");
+            k--;
+        }
+        i++;
+        document.write("<br>");
+    }
+    m=n;
+    m--;
+   
+   let t=1;
+    while(m>=1){
+    s=t;
+        while(s>=1){
+            document.write("&nbsp&nbsp");
+            s--;
+        }
+        t++;
+        // o=1;
+        // while(o<=m){
+        //     document.write("*");
+        //     o++;
+        // }
+        // o=m-1;
+        // while(o>=1){
+        //     document.write("*");
+        //     o--;
+        // }
+       let y=m*2-1;
+       while(y>=1){
+        document.write("*");
+        y--;
+       }
+        m--;
+        document.write("<br>");
+    }
+</script>

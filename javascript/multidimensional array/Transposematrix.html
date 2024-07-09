@@ -1,0 +1,21 @@
+<script>
+    "use strict";
+    let i,j,row,col;
+    row=parseInt(prompt("enter row"));
+    col=parseInt(prompt("enter col"));
+    let a=[],b;
+    for(i=0;i<row;i++)
+    {
+        b=[]            
+        for(j=0;j<col;j++){
+            b[j]=parseInt(prompt("enter array elements="));
+        }
+        a[i]=b;
+    }
+    for(i=0;i<col;i++){
+        for(j=0;j<row;j++){
+            document.write(a[j][i]);
+        }
+        document.write("<br>");
+    }
+</script>

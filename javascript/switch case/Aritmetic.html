@@ -1,0 +1,32 @@
+<script>
+    "use strict";
+    let a,b,c,ch,x;
+    a=parseInt(prompt("enter a="));
+    b=parseInt(prompt("enter b="));
+    x=(prompt("enter x="));
+    ch=x.charAt(0);
+    switch(ch){
+        case '+','1':
+            c=a+b;
+            document.write(c);
+            break;
+        case '-','2':
+            c=a-b;
+            document.write(c);
+            break;
+        case '*','3':
+            c=a*b;
+            document.write(c);
+            break;
+        case '/','4':
+            c=a/b;
+            document.write(c);
+            break;
+        case '%',5:
+            c=a%b;
+            document.write(c);
+            break;
+        default:
+            document.write("invalid");
+    }
+</script>

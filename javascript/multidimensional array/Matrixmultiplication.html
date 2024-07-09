@@ -1,0 +1,50 @@
+
+    <script>
+        "use strict";
+        
+        let i, j, k;
+        let row = parseInt(prompt("Enter number of rows: "));
+        let col = parseInt(prompt("Enter number of columns: "));
+        let a = [];
+        let b = [];
+        
+        for (i = 0; i < row; i++) {
+            let rowA = [];
+            for (j = 0; j < col; j++) {
+                rowA[j]=(parseInt(prompt("Enter element for matrix A[" + i + "][" + j + "]: ")));
+            }
+            a[i]=(rowA);
+        }
+        
+        for (i = 0; i < row; i++) {
+            let rowB = [];
+            for (j = 0; j < col; j++) {
+                rowB[j]=(parseInt(prompt("Enter element for matrix B[" + i + "][" + j + "]: ")));
+            }
+            b[i]=(rowB);
+        }
+        
+        let c = [];
+        for (i = 0; i < row; i++) {
+            let rowC = [];
+            for (j = 0; j < col; j++) {
+                rowC[j]=(0); 
+            }
+            c[i]=(rowC);
+        }
+    
+        for (i = 0; i < row; i++) {
+            for (j = 0; j < col; j++) {
+                for (k = 0; k < row; k++) {
+                    c[i][j] += a[i][k] * b[k][j];
+                }
+            }
+        }
+        for (i = 0; i < row; i++) {
+            for (j = 0; j < col; j++) {
+                document.write("" + c[i][j] + "");
+            }
+            document.write("<br>");
+        }
+    </script>
+

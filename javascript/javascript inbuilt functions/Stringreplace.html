@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <button onclick="myfunction()">click</button>
+        <p id="l">Microsoft</p>
+        <script>
+            function myfunction()
+            {
+                var str=document.getElementById("l").innerHTML;
+                var txt=str.replace("Microsoft","yuva");
+                document.getElementById("l").innerHTML=txt;
+            }
+        </script>
+    </body>
+</html>

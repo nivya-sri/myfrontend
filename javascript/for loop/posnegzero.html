@@ -1,0 +1,24 @@
+<script>
+    "use script";
+    let a,c=0,d=0,g=0,i,n;
+    n=parseInt(prompt("enter n="));
+    for(i=0;i<=n;i++)
+    {
+        a=parseInt(prompt("enter a="));
+        if(a>0){
+            document.write("pos","<br>");
+            c=c+1;
+        }
+        else if(a<0){
+            document.write("neg","<br>");
+            d=d+1;
+        }
+        else{
+            document.write("zero","<br>");
+            g=g+1;
+        }
+    } 
+    document.write("pos=",c);
+    document.write("neg=",d);
+    document.write("zero=",g);
+</script>

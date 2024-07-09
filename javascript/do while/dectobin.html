@@ -1,0 +1,12 @@
+<script>
+    "use strict";
+    let a,b=0,c=1,n;
+    n=parseInt(prompt("enter n"));
+    do{
+        a=parseInt(n%2);
+        b=b+(a*c);
+        c=c*10;
+        n=parseInt(n/2);
+    }while(n!=0);
+    document.write(b);
+</script>

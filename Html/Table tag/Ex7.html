@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td,tr{
+            border:2px outset rgb(192, 182, 182);
+            outline-offset: 1px;
+            width:500px;
+            height:20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+        </tr>
+        <tr>
+            <td rowspan="4"><h2>span</h2>rows</td>
+            <td colspan="3"><h2>span</h2>columns</td>
+        </tr>
+        <tr>
+            <td colspan="2"><h2>span</h2>columns</td>
+            <td rowspan="3"><h2>span</h2>both</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><h2>span</h2>rows</td>
+            <td><h2>span</h2>columns</td>
+        </tr>
+        <tr>
+            <td><h2>span</h2>both</td>
+        </tr>
+    </table>
+</body>
+</html>

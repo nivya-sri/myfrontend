@@ -1,0 +1,17 @@
+<script>
+   "use strict";
+   let a,n,c=0,b;
+   n=parseInt(prompt("enter n="));
+   b=n;
+   while(n>=1){
+        a=parseInt(n%10);
+        c=(c*10)+a;
+        n=parseInt(n/10);
+   } 
+   if(b==c){
+    document.write("palindrome");
+   }
+   else{
+    document.write("not palindrome");
+   }
+</script>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+           function afterText()
+           {
+                var txt1="<b>I</b>";
+                var txt2=$("<i></i>").text("love");
+                var txt3=document.createElement("a");
+                txt3.innerHTML="jQuery!";
+                var txt4=document.createElement("b");
+                txt4.innerHTML="bhavya";
+                $("img").after(txt1,txt2,txt3,txt4);
+           }
+        </script>
+    </head>
+    <body>
+        <img src="C:/Users/admin/Desktop/images/New folder/pexels-photo-265960.jpeg" alt="jquery"
+        width="500px" height="500px">
+        <p>This is a paragraph</p>
+        <button onclick="afterText()">Insert after</button>
+    </body>
+</html>

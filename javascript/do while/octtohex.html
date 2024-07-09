@@ -1,0 +1,38 @@
+<script>
+    "use strict";
+    let a,b=0,c=1,d,f,n;
+    f="";
+    n=parseInt(prompt("enter n="));
+    do{
+        a=parseInt(n%10);
+        b=b+(a*c);
+        c=c*8;
+        n=parseInt(n/10);
+    }while(n!=0);
+    do{
+        d=parseInt(b%16);
+        if(d==10){
+            f=f+"A";
+        }
+        else if(d==11){
+            f=f+"B";
+        }
+        else if(d==12){
+            f=f+"C";
+        }
+        else if(d==13){
+            f=f+"D";
+        }
+        else if(d==14){
+            f=f+"E";
+        }
+        else if(d==15){
+            f=f+"F";
+        }
+        else if(d>0 && d<=9){
+            f=d+f;
+        }
+        b=parseInt(b/16);
+    }while(b!=0);
+    document.write(f);
+</script>

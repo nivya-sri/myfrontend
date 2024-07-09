@@ -1,0 +1,19 @@
+<script>
+    "use strict";
+    let i=1,n,s=0;
+    n=parseInt(prompt("enter n="));
+    do{
+        if(n%i==0){
+            s=s+i;
+            document.write(i,"<br>");
+            document.write(s,"<br>");
+        }
+        i++;
+    }while(i<n);
+    if(n==s){
+        document.write("perfectnum");
+    }
+    else{
+        document.write("not perfectnum");
+    }
+</script>

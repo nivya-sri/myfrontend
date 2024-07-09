@@ -1,0 +1,33 @@
+<script>
+    "use strict";
+    let a,n,c;
+    c="";
+    n=parseInt(prompt("enter n="));
+    do{
+        a=n%16;
+        if(a==10){
+            c=c+"A";
+        }
+        else if(a==11){
+            c=c+"B";
+        }
+        else if(a==12){
+            c=c+"C";
+        }
+        else if(a==13){
+            c=c+"D";
+        }
+        else if(a==14){
+            c=c+"E";
+        }
+        else if(a==15){
+            c=c+"F";
+        }
+        else if(a>0 && a<=9){
+            c=a+c;
+
+        }
+        n=parseInt(n/16);
+    }while(n>0);
+    document.write(c);
+</script>

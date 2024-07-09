@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Search a word of given words</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+                var str="The rain in the spain stays mainly in the match";
+                var res=str.match(/ain/g);
+                document.getElementById("demo").innerHTML=res;
+            }
+        </script>
+    </body>
+</html>

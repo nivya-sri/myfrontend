@@ -1,0 +1,24 @@
+<script>
+    "use strict";
+    let a,b,c=0,d,f,g,h=0,n;
+    n=parseFloat(prompt("enter n="));
+    d=n;
+    a=parseInt(Math.pow(n,2));
+    do{
+        b=parseInt(a%10);
+        c=(c*10)+b;
+        a=parseInt(a/10);
+    }while(a!=0);
+    f=parseInt(Math.sqrt(c,2));
+    do{
+        g=parseInt(f%10);
+        h=(h*10)+g;
+        f=parseInt(f/10);
+    }while(f!=0);
+    if(d==h){
+        document.write("adam");
+    }
+    else{
+        document.write("not adam");
+    }
+</script>

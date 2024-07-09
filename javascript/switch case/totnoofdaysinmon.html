@@ -1,0 +1,56 @@
+<script>
+    "use strict";
+    let a,x;
+    a=parseInt(prompt("enter a="));
+    x=parseInt(prompt("enter x="));
+    switch(a){
+        case 1:
+            document.write("jan has 31 days");
+            break;
+        case 2:
+            if(x%4==0 && x%400==0 && x%100==0){
+                document.write("feb has 29 days");
+            }
+            else{
+                if(x%4==0 && x%100!=0){
+                    document.write("feb has 29 days");
+                }
+                else{
+                    document.write("feb has 28 days");
+                }
+                break;
+            }
+        case 3:
+            document.write("march has 30 days");
+            break;
+        case 4:
+            document.write("apr has 31 days");
+            break;
+        case 5:
+            document.write("may has 30 days");
+            break;
+        case 6:
+            document.write("jun has 31 days");
+            break;
+         case 7:
+            document.write("jul has 30 days");
+            break;
+        case 8:
+            document.write("aug has 30 days");
+            break;
+        case 9:
+            document.write("sep has 30 days");
+            break;
+        case 10:
+            document.write("oct has 30 days");
+            break;
+        case 11:
+            document.write("nov has 30 days");
+            break;
+        case 12:
+            document.write("dec has 30 days");
+            break;
+        default:
+            document.write("invalid");
+    }
+</script>

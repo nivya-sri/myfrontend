@@ -1,0 +1,20 @@
+<script>
+    "use strict";
+    let i,n,j,s=0;
+    n=parseInt(prompt("enter n="));
+    let a=[];
+    for(i=0;i<n;i++){
+        a[i]=parseInt(prompt("enter elements"));
+    }
+    for(i=0;i<n;i++){
+        for(j=i+1;j<n;j++)
+        {
+            if(a[i]<a[j]){
+                s++;
+            }
+        }
+        if(s==0){
+            document.write("the element"+a[i]+"is leader","<br>");
+        }
+    }
+</script>

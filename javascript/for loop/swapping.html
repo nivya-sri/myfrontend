@@ -1,0 +1,18 @@
+<script>
+    "use strict";
+    let n,count=0,i=0,a,h,g,f,b,c,d,e,j,k,l,m;
+    n=parseInt(prompt("enter n="));
+    h=n;
+    for(;n!=0;){
+        count=count+1;
+        n=parseInt(n/10);
+    }
+    a=parseInt(h%10);
+    f=parseInt(h/1000);
+    g=parseInt(Math.pow(10,count-1));
+    m=parseInt(h%g);
+    j=m-a;
+    k=j+f;
+    l=(a*g)+k;
+    document.write(l);
+</script>

@@ -1,0 +1,23 @@
+<script>
+    "use strict";
+    let a,b,c=0,d,f,count=0,n;
+    n=parseInt(prompt("enter n="));
+    b=n;
+    d=n;
+    while(n!=0){
+        a=parseInt(n%10);
+        count=count+1;
+        n=parseInt(n/10);
+    }
+    while(b!=0){
+        f=parseInt(b%10);
+        c=c+Math.pow(f,count);
+        b=parseInt(b/10);
+    }
+    if(d==c){
+        document.write("armstrong");
+    }
+    else{
+        document.write("not armstrong");
+    }
+</script>

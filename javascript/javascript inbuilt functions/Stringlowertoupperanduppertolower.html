@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <button onclick="myfunction()">click</button>
+        <p id="l">Hello world</p>
+        <p id="a"></p>
+        <p id="s"></p>
+        <script>
+            function myfunction()
+            {
+                var text=document.getElementById("l").innerHTML;
+                document.getElementById("a").innerHTML=text.toUpperCase();
+                document.getElementById("s").innerHTML=text.toLowerCase();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<script>
+    "use strict";
+    let i,j,n,m;
+    n=parseInt(prompt("enter n="));
+    let a=[];
+    for(i=0;i<n;i++){
+        a[i]=parseInt(prompt("enter elements="));
+    }
+    for(i=0;i<n;i++){
+        for(j=i+1;j<n;j++){
+            if(a[i]>a[j]){
+                m=a[i];
+                a[i]=a[j];
+                a[j]=m;
+            }
+        }
+    }
+    for(i=0;i<n;i++){
+        document.write(a[i],"<br>");
+    }
+</script>

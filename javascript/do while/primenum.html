@@ -1,0 +1,19 @@
+<script>
+    "use strict";
+    let i=1,s=0,n,d;
+    n=parseInt(prompt("enter n="));
+    do{
+        if(n%i==0){
+            s=s+i;
+            document.write(s,"<br>");
+            
+        }
+        i++;
+    }while(i<=n);
+    if(n==(s-1)){
+        document.write("prime");
+    }
+    else{
+        document.write("not prime");
+    }
+</script>

@@ -1,0 +1,28 @@
+<script>
+    "use strict";
+    let a,tam,eng,mat,soc,sci;
+    tam=parseInt(prompt("enter tam="));
+    eng=parseInt(prompt("enter eng="));
+    mat=parseInt(prompt("enter mat="));
+    soc=parseInt(prompt("enter soc="));
+    sci=parseInt(prompt("enter sci="));
+    a=(tam+eng+mat+soc+sci)/5;
+    if(tam>35 && eng>35 && mat>35 && soc>35 && sci>35){
+        document.write("pass","<br>");
+        if(a>=90){
+            document.write("O grade");
+        }
+        else if(a>=60 && a<90){
+            document.write("A grade");
+        }
+        else if(a>=35 && a<60){
+            document.write("B grade");
+        }
+        else{
+            document.write("C grade");
+        }
+    }
+    else{
+        document.write("fail");
+    }
+</script>

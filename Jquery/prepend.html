@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("p").prepend("<br>Prepended text</b>");
+                });
+                $("#btn2").click(function(){
+                    $("ol").prepend("<li>Prepend item</li>");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <p>This is used to prepend the paragraph.</p>
+        <ol>
+            <li>List1</li>
+            <li>List2</li>
+        </ol>
+        <button id="btn1">Prepend Item</button>
+        <button id="btn2">Prepend List</button>
+    </body>
+</html>

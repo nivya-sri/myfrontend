@@ -1,0 +1,23 @@
+
+        table,th,td,tr{
+            border:1px solid black;
+            width:800px;
+            height: 40px;
+            border-collapse: collapse;
+        }
+        .box1{
+            border: 1px solid lightseagreen;
+            background-color: lightseagreen;
+            width:1200px;
+            height: 800px;
+        }
+        .box2{
+            border:10px outset black;
+            width:800px;
+            margin-left: 180px;
+            margin-top:50px;
+        }
+        label{
+            font-weight: lighter;
+        }
+    

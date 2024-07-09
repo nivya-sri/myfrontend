@@ -1,0 +1,494 @@
+
+        .box1{
+            border:1px solid grey;
+            width: 1320px;
+            height:1400px;
+            background-color: grey;
+        }
+        .text11{
+            color:white;
+            font-size: 20px;
+            padding-left: 550px;
+        }
+        .box2{
+            border:1px solid white;
+            width:800px;
+            height:1250px;
+            margin-left: 250px;
+            background-color: white;
+        }
+        .box21{
+            border:0.5px solid none;
+            width:800px;
+            height:200px;
+            background-image: url('./images/coffee.jpg');
+            background-size: 100% 100%;
+        }
+        .box22{
+            border:1px solid none;
+            width:800px;
+            height:250px;
+            margin-top: 5px;
+            text-align: center;
+            color: grey;
+        }
+        .text21{
+            color: goldenrod;
+            text-align: center;
+            font-size: 15px;
+        }
+        table,th,td,tr{
+            border:1px solid none;
+            width:780px;
+            height:20px;
+            border-collapse: collapse;
+            margin-left: 5px;
+        }
+        .text22{
+            background-color: lightslategray;
+            color: lightgray;
+        }
+        .box23{
+            border:1px solid none;
+            width:800px;
+            height:250px;
+            margin-top: 5px;
+            text-align: center;
+            color: grey;
+        }
+        .box3{
+            border:1px solid none;
+            width:800px;
+            height:220px;
+        }
+        .box31{
+            border:1px solid none;
+            width:250px;
+            height:150px;
+            float: left;
+            margin-left: 5px;
+        }
+        .box32{
+            border:1px solid none;
+            width:250px;
+            height:150px;
+            float: left;
+            margin-left: 5px;
+        }
+        .box33{
+            border:1px solid none;
+            width:250px;
+            height:150px;
+            float: left;
+            margin-left: 5px;
+        }
+        .image{
+            width:200px;
+            height:80px;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+        .text31{
+            text-align: center;
+            font-size: 10px;
+        }
+        .box4{
+            border:1px solid none;
+            width:800px;
+            height: 150px;
+        }
+        .text41{
+            padding-left: 30px;
+            font-size: 10px;
+            color: grey;
+        }
+        .text42{
+            color:black;
+        }
+        .text43{
+            color: lightslategray;
+            margin-left: 350px;
+        }
+        .text44{
+            margin-left: 4px;
+        }
+        .text5{
+            color:white;
+            text-align: center;
+            font-size: 10px;
+        }
+        @media screen and (min-width:280px) and (max-width:374px){
+            .box1{
+                border:1px solid grey;
+                width: 1020px;
+                height:7000px;
+                background-color: grey;
+            }
+            .text11{
+                color:white;
+                font-size: 65px;
+                padding-left: 300px;
+            }
+            .box2{
+                border:1px solid white;
+                width:800px;
+                height:6050px;
+                margin-left: 100px;
+                background-color: white;
+                margin-top: 100px;
+            }
+            .box21{
+                border:0.5px solid none;
+                width:800px;
+                height:800px;
+                background-image: url('./images/coffee.jpg');
+                background-size: 100% 100%;
+            }
+            .box22{
+                border:1px solid none;
+                width:800px;
+                height:950px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 45px;
+            }
+            .text21{
+                color: goldenrod;
+                text-align: center;
+                font-size: 55px;
+            }
+            table,th,td,tr{
+                border:1px solid none;
+                width:780px;
+                height:90px;
+                border-collapse: collapse;
+                margin-left: 5px;
+            }
+            .text22{
+                background-color: lightslategray;
+                color: lightgray;
+                font-size: 45px;
+            }
+            .box23{
+                border:1px solid none;
+                width:800px;
+                height:950px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 45px;
+            }
+            .box3{
+                border:1px solid none;
+                width:800px;
+                height:1920px;
+            }
+            .box31{
+                border:1px solid none;
+                width:750px;
+                height:550px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box32{
+                border:1px solid none;
+                width:750px;
+                height:550px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box33{
+                border:1px solid none;
+                width:750px;
+                height:550px;
+                float: none;
+                margin-left: 25px;
+            }
+            .image{
+                width:600px;
+                height:280px;
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+            .text31{
+                text-align: center;
+                font-size: 45px;
+            }
+            .box4{
+                border:1px solid none;
+                width:800px;
+                height: 450px;
+            }
+            .text41{
+                padding-left: 30px;
+                font-size: 45px;
+                color: grey;
+            }
+            .text42{
+                color:black;
+            }
+            .text43{
+                color: lightslategray;
+                margin-left: 300px;
+                font-size: 55px;
+            }
+            .text44{
+                margin-left: 4px;
+            }
+            .text5{
+                color:white;
+                text-align: center;
+                font-size: 45px;
+            }
+        }
+        @media screen and (min-width:375px) and (max-width:475px){
+            .box1{
+                border:1px solid grey;
+                width: 1020px;
+                height:10800px;
+                background-color: grey;
+            }
+            .text11{
+                color:white;
+                font-size: 85px;
+                padding-left: 250px;
+            }
+            .box2{
+                border:1px solid white;
+                width:800px;
+                height:9200px;
+                margin-left: 100px;
+                background-color: white;
+                margin-top: 200px;
+            }
+            .box21{
+                border:0.5px solid none;
+                width:800px;
+                height:1200px;
+                background-image: url('./images/coffee.jpg');
+                background-size: 100% 100%;
+            }
+            .box22{
+                border:1px solid none;
+                width:800px;
+                height:1350px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 65px;
+            }
+            .text21{
+                color: goldenrod;
+                text-align: center;
+                font-size: 85px;
+            }
+            table,th,td,tr{
+                border:1px solid none;
+                width:780px;
+                height:110px;
+                border-collapse: collapse;
+                margin-left: 5px;
+            }
+            .text22{
+                background-color: lightslategray;
+                color: lightgray;
+                font-size: 65px;
+            }
+            .box23{
+                border:1px solid none;
+                width:800px;
+                height:1350px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 65px;
+            }
+            .box3{
+                border:1px solid none;
+                width:800px;
+                height:3320px;
+            }
+            .box31{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box32{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box33{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .image{
+                width:600px;
+                height:680px;
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+            .text31{
+                text-align: center;
+                font-size: 65px;
+            }
+            .box4{
+                border:1px solid none;
+                width:800px;
+                height: 850px;
+            }
+            .text41{
+                padding-left: 30px;
+                font-size: 65px;
+                color: grey;
+            }
+            .text42{
+                color:black;
+            }
+            .text43{
+                color: lightslategray;
+                margin-left: 300px;
+                font-size: 75px;
+            }
+            .text44{
+                margin-left: 4px;
+            }
+            .text5{
+                color:white;
+                text-align: center;
+                font-size: 65px;
+            }
+        }
+        @media screen and (min-width:768px) and (max-width:868px){
+            .box1{
+                border:1px solid grey;
+                width: 1020px;
+                height:11000px;
+                background-color: grey;
+            }
+            .text11{
+                color:white;
+                font-size: 85px;
+                padding-left: 250px;
+            }
+            .box2{
+                border:1px solid white;
+                width:800px;
+                height:9550px;
+                margin-left: 120px;
+                background-color: white;
+                margin-top: 200px;
+            }
+            .box21{
+                border:0.5px solid none;
+                width:800px;
+                height:1200px;
+                background-image: url('./images/coffee.jpg');
+                background-size: 100% 100%;
+            }
+            .box22{
+                border:1px solid none;
+                width:800px;
+                height:1350px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 65px;
+            }
+            .text21{
+                color: goldenrod;
+                text-align: center;
+                font-size: 85px;
+            }
+            table,th,td,tr{
+                border:1px solid none;
+                width:780px;
+                height:110px;
+                border-collapse: collapse;
+                margin-left: 5px;
+            }
+            .text22{
+                background-color: lightslategray;
+                color: lightgray;
+                font-size: 65px;
+            }
+            .box23{
+                border:1px solid none;
+                width:800px;
+                height:1350px;
+                margin-top: 5px;
+                text-align: center;
+                color: grey;
+                font-size: 65px;
+            }
+            .box3{
+                border:1px solid none;
+                width:800px;
+                height:3320px;
+            }
+            .box31{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box32{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .box33{
+                border:1px solid none;
+                width:750px;
+                height:1000px;
+                float: none;
+                margin-left: 25px;
+            }
+            .image{
+                width:600px;
+                height:680px;
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+            .text31{
+                text-align: center;
+                font-size: 65px;
+            }
+            .box4{
+                border:1px solid none;
+                width:800px;
+                height: 850px;
+            }
+            .text41{
+                padding-left: 30px;
+                font-size: 65px;
+                color: grey;
+            }
+            .text42{
+                color:black;
+            }
+            .text43{
+                color: lightslategray;
+                margin-left: 300px;
+                font-size: 75px;
+            }
+            .text44{
+                margin-left: 4px;
+            }
+            .text5{
+                color:white;
+                text-align: center;
+                font-size: 65px;
+            }
+        }

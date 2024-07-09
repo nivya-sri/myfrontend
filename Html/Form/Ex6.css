@@ -1,0 +1,811 @@
+.box1 {
+    border: 1px solid rgb(243, 122, 142);
+    width:1335px;
+    height: 180px;
+    background-color: rgb(243, 122, 142);
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.box2 {
+    border: 1px solid skyblue;
+    width: 1335px;
+    height: 320px;
+    background-color: skyblue;
+    margin-top: 20px;
+}
+.text1{
+    padding:3px;
+    text-align: center;
+    font-size: 25px;
+}
+.text11{
+    font-size: 50px;
+}
+.box21 {
+    border: 1px solid skyblue;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    float: left;
+    margin: 10px;
+}
+
+.box22 {
+    border: 1px solid skyblue;
+    width: 650px;
+    height: 180px;
+    font-size: 15px;
+    color: white;
+    float: left;
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+.box3 {
+    border: 1px solid white;
+    width: 1335px;
+    height: 620px;
+    margin-top: 5px;
+}
+
+.box4 {
+    border: 1px solid lightskyblue;
+    width: 1335px;
+    height: 250px;
+    background-color:lightskyblue;
+    margin-top: 70px;
+}
+
+form{
+    border:1px solid lightskyblue;
+    width:400px;
+    height:150px;
+    font-size: 15px;
+    float:left;
+    margin-left: 5px;
+    padding-left: 20px;
+    color: white;
+}
+input{
+    border:1px solid lightskyblue;
+    width:280px;
+    height:30px;
+    background-color: lightskyblue;
+    margin-top:3px;
+    border-bottom-color: white;
+   
+}
+.text2{
+    color: white;
+    text-align: justify;
+}
+button{
+    border:1px solid lightskyblue;
+    margin-left: 190px;
+    width:75px;
+    margin-top: 30px;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+    font-size: 15px;
+}
+.box41{
+    border:1px solid lightskyblue;
+    width:280px;
+    background-color: lightskyblue;
+    border-bottom-color: white;
+}
+.box42{
+    border:1px solid lightskyblue;
+    width:400px;
+    height:150px;
+    color: white;
+    font-size: 15px;
+    float:left;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+.box43{
+    border:1px solid lightskyblue;
+    width:180px;
+    height:100px;
+    color: white;
+    font-size: 50px;
+    float:left;
+    margin-left: 15px;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.box5{
+    border:1px solid white;
+    width:250px;
+}
+.icon{
+    margin-left: 5px;
+}
+.icon1{
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.text3{
+    font-size: 50px;
+    padding-left: 5px;
+}
+.text31{
+    font-size: 15px;
+    float: left;
+    color: skyblue;
+    padding-left: 1000px;
+}
+.text32{
+    font-size: 15px;
+    float: left;
+    color: skyblue;
+    padding-left: 30px;
+}
+.text33{
+    font-size: 15px;
+    float: left;
+    color: skyblue;
+    padding-left: 30px;
+}
+.text34{
+    font-size: 15px;
+    float: left;
+    color: rgb(243, 122, 142);
+    padding-left: 30px;
+}
+.box6{
+    border:1px solid none;
+    width:1335px;
+    height:50px;
+
+}
+.box31{
+    width:320px;
+    height:200px;
+    float: left;
+    padding-top: 5px;
+    
+}
+.box32{
+    width:320px;
+    height:200px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.box33{
+    width:320px;
+    height:200px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.box34{
+    width:320px;
+    height:200px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+@media screen and (min-width:280px) and (max-width:374px) {
+    .box1 {
+        border: 1px solid rgb(150, 243, 122);
+        width:1085px;
+        height: 480px;
+        background-color: rgb(40, 182, 4);
+        text-align: center;
+        color: white;
+        padding-top: 80px;
+    }
+    
+    .box2 {
+        border: 1px solid skyblue;
+        width: 1085px;
+        height: 2520px;
+        background-color: skyblue;
+        margin-top: 20px;
+    }
+    .text1{
+        padding:3px;
+        text-align: center;
+        font-size: 65px;
+    }
+    .text11{
+        font-size: 70px;
+    }
+    .box21 {
+        border: 1px solid skyblue;
+        width: 550px;
+        height: 100px;
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+        float: left;
+        margin: 10px;
+        padding-left: 100px;
+    }
+    
+    .box22 {
+        border: 1px solid skyblue;
+        width: 800px;
+        height: 180px;
+        font-size: 45px;
+        color: white;
+        float: left;
+        margin: 10px;
+        padding-top: 5px;
+        padding-left: 100px;
+        margin-top: 100px;
+    }
+    
+    
+    .box4 {
+        border: 1px solid lightskyblue;
+        width: 1085px;
+        height: 2650px;
+        background-color:lightskyblue;
+        margin-top: 70px;
+    }
+    
+    form{
+        border:1px solid lightskyblue;
+        width:1000px;
+        height:350px;
+        font-size: 45px;
+        float:none;
+        margin-left: 5px;
+        padding-left: 20px;
+        color: white;
+    }
+    input{
+        border:1px solid lightskyblue;
+        width:1000px;
+        height:90px;
+        background-color: lightskyblue;
+        margin-top:5px;
+        border-bottom-color: white;
+       
+    }
+    .text2{
+        color: white;
+        text-align: justify;
+        font-size: 65px;
+    }
+    button{
+        border:1px solid lightskyblue;
+        margin-left: 590px;
+        width:75px;
+        margin-top: 30px;
+        background-color: lightskyblue;
+        border-color: lightskyblue;
+        color: white;
+        font-size: 65px;
+    }
+    .box41{
+        border:1px solid lightskyblue;
+        width:1000px;
+        background-color: lightskyblue;
+        border-bottom-color: white;
+        font-size: 65px;
+    }
+    .box42{
+        border:1px solid lightskyblue;
+        width:800px;
+        height:150px;
+        color: white;
+        font-size: 45px;
+        float:none;
+        margin-left: 50px;
+        padding-left: 20px;
+        margin-top: 350px;
+    }
+    .box43{
+        border:1px solid lightskyblue;
+        width:180px;
+        height:100px;
+        color: white;
+        font-size: 65px;
+        float:none;
+        margin-left: 15px;
+        padding-left: 350px;
+        padding-top: 50px;
+        margin-top: 850px;
+    }
+    .box5{
+        border:1px solid white;
+        width:250px;
+    }
+    .icon{
+        margin-left: 5px;
+    }
+    .icon1{
+        margin-left: 80px;
+        font-size: 65px;
+    }
+    .text3{
+        font-size: 50px;
+        padding-left: 5px;
+    }
+    .text31{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 500px;
+    }
+    .text32{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text33{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text34{
+        font-size: 35px;
+        float: left;
+        color: rgb(243, 122, 142);
+        padding-left: 30px;
+    }
+    .box6{
+        border:1px solid none;
+        width:1085px;
+        height:50px;
+    }
+    .box3 {
+        border: 1px solid white;
+        width: 1085px;
+        height: 1920px;
+        margin-top: 5px;
+    }
+    .box31{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-top: 5px;
+        padding-left: 10px;
+        
+    }
+    .box32{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box33{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box34{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:475px) {
+    .box1 {
+        border: 1px solid rgb(150, 243, 122);
+        width:1085px;
+        height: 480px;
+        background-color: rgb(40, 182, 4);
+        text-align: center;
+        color: white;
+        padding-top: 80px;
+    }
+    
+    .box2 {
+        border: 1px solid skyblue;
+        width: 1085px;
+        height: 2820px;
+        background-color: skyblue;
+        margin-top: 20px;
+    }
+    .text1{
+        padding:3px;
+        text-align: center;
+        font-size: 65px;
+    }
+    .text11{
+        font-size: 70px;
+    }
+    .box21 {
+        border: 1px solid skyblue;
+        width: 550px;
+        height: 100px;
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+        float: left;
+        margin: 10px;
+        padding-left: 250px;
+    }
+    
+    .box22 {
+        border: 1px solid skyblue;
+        width: 800px;
+        height: 180px;
+        font-size: 45px;
+        color: white;
+        float: left;
+        margin: 10px;
+        padding-top: 5px;
+        padding-left: 180px;
+        margin-top: 400px;
+    }
+    
+    
+    .box4 {
+        border: 1px solid lightskyblue;
+        width: 1085px;
+        height: 2650px;
+        background-color:lightskyblue;
+        margin-top: 70px;
+    }
+    
+    form{
+        border:1px solid lightskyblue;
+        width:1000px;
+        height:350px;
+        font-size: 45px;
+        float:none;
+        margin-left: 5px;
+        padding-left: 20px;
+        color: white;
+    }
+    input{
+        border:1px solid lightskyblue;
+        width:1000px;
+        height:90px;
+        background-color: lightskyblue;
+        margin-top:5px;
+        border-bottom-color: white;
+       
+    }
+    .text2{
+        color: white;
+        text-align: justify;
+        font-size: 65px;
+    }
+    button{
+        border:1px solid lightskyblue;
+        margin-left: 590px;
+        width:75px;
+        margin-top: 30px;
+        background-color: lightskyblue;
+        border-color: lightskyblue;
+        color: white;
+        font-size: 65px;
+    }
+    .box41{
+        border:1px solid lightskyblue;
+        width:1000px;
+        background-color: lightskyblue;
+        border-bottom-color: white;
+        font-size: 65px;
+    }
+    .box42{
+        border:1px solid lightskyblue;
+        width:800px;
+        height:150px;
+        color: white;
+        font-size: 45px;
+        float:none;
+        margin-left: 50px;
+        padding-left: 20px;
+        margin-top: 350px;
+    }
+    .box43{
+        border:1px solid lightskyblue;
+        width:180px;
+        height:100px;
+        color: white;
+        font-size: 65px;
+        float:none;
+        margin-left: 15px;
+        padding-left: 350px;
+        padding-top: 50px;
+        margin-top: 850px;
+    }
+    .box5{
+        border:1px solid white;
+        width:250px;
+    }
+    .icon{
+        margin-left: 5px;
+    }
+    .icon1{
+        margin-left: 80px;
+        font-size: 65px;
+    }
+    .text3{
+        font-size: 50px;
+        padding-left: 5px;
+    }
+    .text31{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 500px;
+    }
+    .text32{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text33{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text34{
+        font-size: 35px;
+        float: left;
+        color: rgb(243, 122, 142);
+        padding-left: 30px;
+    }
+    .box6{
+        border:1px solid none;
+        width:1085px;
+        height:50px;
+    }
+    .box3 {
+        border: 1px solid white;
+        width: 1085px;
+        height: 1920px;
+        margin-top: 5px;
+    }
+    .box31{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-top: 5px;
+        padding-left: 10px;
+        
+    }
+    .box32{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box33{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box34{
+        width:520px;
+        height:300px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:868px) {
+    .box1 {
+        border: 1px solid rgb(243, 122, 142);
+        width:1335px;
+        height: 380px;
+        background-color: rgb(243, 122, 142);
+        text-align: center;
+        color: white;
+        padding-top: 80px;
+    }
+    
+    .box2 {
+        border: 1px solid skyblue;
+        width: 1335px;
+        height: 1820px;
+        background-color: skyblue;
+        margin-top: 20px;
+    }
+    .text1{
+        padding:3px;
+        text-align: center;
+        font-size: 65px;
+    }
+    .text11{
+        font-size: 65px;
+    }
+    .box21 {
+        border: 1px solid skyblue;
+        width: 550px;
+        height: 100px;
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+        float: none;
+        margin: 10px;
+        padding-left: 350px;
+    }
+    
+    .box22 {
+        border: 1px solid skyblue;
+        width: 1300px;
+        height: 180px;
+        font-size: 45px;
+        color: white;
+        float: none;
+        margin: 10px;
+        padding-top: 5px;
+        padding-left: 3px;
+        margin-top: 300px;
+    }
+    
+    .box3 {
+        border: 1px solid white;
+        width: 1335px;
+        height: 620px;
+        margin-top: 5px;
+    }
+    
+    .box4 {
+        border: 1px solid lightskyblue;
+        width: 1335px;
+        height: 2750px;
+        background-color:lightskyblue;
+        margin-top: 70px;
+    }
+    
+    form{
+        border:1px solid lightskyblue;
+        width:400px;
+        height:150px;
+        font-size: 55px;
+        float:none;
+        margin-left: 5px;
+        padding-left: 20px;
+        color: white;
+    }
+    input{
+        border:1px solid lightskyblue;
+        width:1300px;
+        height:70px;
+        background-color: lightskyblue;
+        margin-top:3px;
+        border-bottom-color: white;
+       
+    }
+    .text2{
+        color: white;
+        text-align: justify;
+        font-size: 55px;
+    }
+    button{
+        border:1px solid lightskyblue;
+        margin-left: 1000px;
+        width:75px;
+        margin-top: 30px;
+        background-color: lightskyblue;
+        border-color: lightskyblue;
+        color: white;
+        font-size: 55px;
+    }
+    .box41{
+        border:1px solid lightskyblue;
+        width:1300px;
+        height: 100px;
+        background-color: lightskyblue;
+        border-bottom-color: white;
+        font-size: 55px;
+    }
+    .box42{
+        border:1px solid lightskyblue;
+        width:1200px;
+        height:150px;
+        color: white;
+        font-size: 45px;
+        float:none;
+        margin-left: 50px;
+        padding-left: 20px;
+        margin-top: 500px;
+    }
+    .box43{
+        border:1px solid lightskyblue;
+        width:180px;
+        height:100px;
+        color: white;
+        font-size: 55px;
+        float:none;
+        margin-left: 15px;
+        padding-left: 520px;
+        padding-top: 50px;
+        margin-top: 550px;
+    }
+    .box5{
+        border:1px solid white;
+        width:250px;
+    }
+    .icon{
+        margin-left: 5px;
+    }
+    .icon1{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    
+    .text3{
+        font-size: 55px;
+        padding-left: 5px;
+    }
+    .text31{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 800px;
+    }
+    .text32{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text33{
+        font-size: 35px;
+        float: left;
+        color: skyblue;
+        padding-left: 30px;
+    }
+    .text34{
+        font-size: 35px;
+        float: left;
+        color: rgb(243, 122, 142);
+        padding-left: 30px;
+    }
+    .box6{
+        border:1px solid none;
+        width:1335px;
+        height:50px;
+    
+    }
+    .box31{
+        width:320px;
+        height:200px;
+        float: left;
+        padding-top: 5px;
+        
+    }
+    .box32{
+        width:320px;
+        height:200px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box33{
+        width:320px;
+        height:200px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .box34{
+        width:320px;
+        height:200px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+}

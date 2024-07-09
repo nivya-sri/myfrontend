@@ -1,0 +1,41 @@
+<script>
+    "use strict";
+    let i=0,l,c,g=0,count=0,s,d,j=0,k=1,h;
+    s=(prompt("enter s="));
+    l=s.length-1;
+    do{
+        d=s.charAt(l);
+        if(d=='A'){
+            c=10;
+        }
+        else if(d=='B'){
+            c=11;
+        }
+        else if(d=='C'){
+            c=12;
+        }
+        else if(d=='D'){
+            c=13;
+        }
+        else if(d=='E'){
+            c=14;
+        }
+        else if(d=='F'){
+            c=15;
+        }
+        else{
+            c=parseInt(d);
+        }
+        g=g+c*Math.pow(16,count);
+        count++;
+        l--;
+    }while(i<=l);
+    document.write(g,"<br>");
+    do{
+        h=parseInt(g%2);
+        j=j+(h*k);
+        k=k*10;
+        g=parseInt(g/2);
+    }while(g!=0);
+    document.write(j);
+</script>

@@ -1,0 +1,31 @@
+<script>
+    "use strict";
+    let i=1,n,j,k,l;
+    n=parseInt(prompt("enter n="));
+    while(i<=n)
+			{
+				l=n;
+				while(l>=i)
+				{
+					document.write("&nbsp&nbsp");
+					l--;
+				}
+				j=1;
+				k=i;
+				while(j<=i)
+				{
+					document.write("*"+" ");
+					k++;
+					j++;
+				}
+				k--;
+				while(k>i)
+				{
+					k--;
+					document.write("*"+" ");
+				}
+				i++;
+				document.write("<br>");
+			}
+
+</script>

@@ -1,0 +1,42 @@
+
+        form{
+            border:0cap gainsboro;
+            width:500px;
+            height:920px;
+            margin:auto;
+            background-color: gainsboro;
+        }
+        .box1{
+            float:left;
+        }
+        .box2{
+            float:left;
+            margin-left: 3px;
+        }
+        input{
+            padding:8px;
+            color: grey;
+            margin-left: 20px;
+        }
+        label{
+            font-weight: bold;
+            padding-left: 20px;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            margin-left: 350px;
+        }
+        .box3{
+            margin-left: 20px;
+            width:380px;
+            height:20px;
+        }
+        .box4{
+            width:180px;
+            padding-left: 190px;
+        }
+        .box5{
+            width:360px;
+        }
+    

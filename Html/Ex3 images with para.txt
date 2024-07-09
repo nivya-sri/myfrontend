@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <img src="./images/istockphoto-1155424493-1024x1024.jpg" style="width:800px;height:800px;margin-left:300px;">
+    <p style="text-align:justify;margin-left:300px;width:800px;height:800px;">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Phaselius imperdiet,nulla etdictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor maecenas nisl est,ultrices nec congue eget, auctor vitae massa.Fusce luctus vestibulum augue ut aliquet.Mauris ante ligula, facilisis and ornare eu, lobortis in odio.Praesent convallis urna a lacus interdum ut hendrerit risus congue.Nune sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.In at libero sed nunc venenatis imperdict sed ornare turpis.Donec vitae dui eget tellus gravida venenatis.Integer fringilla congue cros non fermentum sed dapibus pulvinar nibh tempor porta .Cras ac leo purus .Mauris quis diam velit .In at libero sed nune venenatis imperdiet sed ornare turpis.Donec vitae dui eget tellus gravida venenatis.Integer fringilla congue eros non fermentum.Sed dapibus pulvinar nibh temper porta .Cras ac leo purus.Mauris quis diam velit.Donec vitae dui eget tellus gravida venenatis.Integer fringilla congue cros non fermentum.Sed dapibus pulvinar nibh tempor porta.Cras ac leo purus.Mauris quis diam velit.</p>
+
+</body>
+</html> 

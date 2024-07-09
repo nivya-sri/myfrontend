@@ -1,0 +1,42 @@
+
+        form{
+            border:1px solid black;
+            width:1350px;
+            height: 600px;
+            background-image: url('./images/download.jpeg');
+            background-size: 100% 100%;
+            float: left;
+        }
+        label{
+            color: white;
+            font-size: 25px;
+            padding-left:60px;
+        }
+        input{
+            color: grey;
+            width:360px;
+           margin-left: 60px;
+        }
+        .text1{
+            color: white;
+            text-align: center;
+        }
+        .text2{
+            color: greenyellow;
+        }
+        button{
+            background-color: rgb(70, 250, 70);
+            color: white;
+            margin-left: 60px;
+        }
+        .box2{
+            height:60px;
+        }
+        select{
+            width:360px;
+            margin-left: 60px;
+        }
+        .box3{
+            width:360px;
+        }
+    

@@ -1,0 +1,46 @@
+
+        form{
+            width:350px;
+            margin:auto;
+        }
+        input{
+            padding:8px;
+        }
+        label{
+            font-weight: lighter;
+            float: left;
+        }
+        select{
+            float:left;
+        }
+        button{
+            background-color: lightgreen;
+            float: left;
+        }
+        .text1{
+            text-decoration: underline;
+            color:blue
+        }
+        .box2{
+            background-color: rgb(206, 195, 195);
+            width:500px;
+            height: 500px;
+            color:grey;
+            padding-left:400px;
+            
+        }
+        .box1{
+            text-align: center;
+            color: black;
+            padding-right: 400px;
+        }
+        .box3{
+            margin-left: 30px;
+        }
+        .box4{
+            margin-left: 10px;
+        }
+        .text2{
+            padding-left: 5px;
+        }
+    
